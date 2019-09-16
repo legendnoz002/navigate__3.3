@@ -114,8 +114,7 @@ class GameFragment : Fragment() {
         }
         return binding.root
 
-        val args = GameWonFragmentArgs.fromBundle(arguments!!)
-        Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}", Toast.LENGTH_LONG).show()
+
     }
 
     // randomize the questions and set the first question
